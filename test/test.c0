@@ -1,0 +1,23 @@
+int a,b;
+void fun(){
+	int d;
+	scanf(d);
+	while(d){
+		d=d-1;
+		b=b+a;
+		printf(b);
+	}
+	return;	
+}
+
+void main(){
+	scanf(b);
+	scanf(a);
+	if(b){
+		fun();
+	}	
+	else{
+		printf(a);
+	}
+	return;
+}

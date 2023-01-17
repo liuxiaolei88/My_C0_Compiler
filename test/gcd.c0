@@ -1,0 +1,22 @@
+int a,b,c,d;
+int gcd(){
+	while(b){
+		c = a/b;
+		d = a - c*b;
+		a = b;
+		b = d;
+	}
+	return a;
+}
+void run(){
+	scanf(a);
+	scanf(b);
+	return;
+}
+void main(){
+	int ans;
+	run();
+	ans = gcd();
+	printf(ans);
+	return;
+}
