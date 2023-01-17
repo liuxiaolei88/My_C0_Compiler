@@ -1,0 +1,15 @@
+#!/bin/bash
+echo '————第三个实验代码输出结果————'
+echo '查看主机名称'
+echo "主机名:      "$(hostname)
+echo "ip地址      "$(ifconfig -a)
+echo '创建文件夹'
+mkdir "os_exp"
+echo '创建文件'
+touch 1.txt
+echo '查看文件权限'
+echo $(ls -l)
+echo '更改文件权限'
+chmod 664 /home/lxl0191122934/os_exp
+echo '输出更改后的文件权限'
+echo $(ls -l)
